@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LobbyActivity"
+    android:background="@drawable/background">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:scaleType="fitXY"
+            android:layout_margin="5dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_arrow_back_24px"/>
+
+
+        <ImageView
+            android:id="@+id/musiquiz_"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:src="@drawable/ic_musiquiz" />
+
+        <TextView
+            android:id="@+id/connectText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/musiquiz_"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="YOU'RE IN!"/>
+
+        <TextView
+            android:id="@+id/readyText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/connectText"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textColorWhite"
+            android:textSize="40sp"
+            android:layout_marginTop="60dp"
+            android:text="GET READY FOR"/>
+
+        <TextView
+            android:id="@+id/typeText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/readyText"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:textColor="@color/textColorWhite"
+            android:textStyle="bold"
+            android:textSize="40sp"
+            android:text="QUIZ TO START"/>
+
+        <ImageView
+            android:id="@+id/reggae"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:layout_below="@+id/typeText"
+            android:background="#ffffff"
+            android:padding="5dp"
+            android:layout_marginTop="40dp"
+            />
+
+
+</RelativeLayout>
